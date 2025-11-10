@@ -1,4 +1,4 @@
 inc/config.php
+inc/.env
 inc/scripts/
-inc/files/
 /vendor/

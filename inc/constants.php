@@ -1,5 +1,5 @@
 <?php
-require_once 'config.php';
+//require_once 'config.php';
 define('SITE_NAME', 'ValidCert');
 define('SITE_EMAIL', 'hello@validcert.com');
 define('SITE_DESC', "Web app for certificate verification");

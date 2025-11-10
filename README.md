@@ -4,18 +4,18 @@ A web application for verification of academic certificates with integration of 
 
 ## Main Features
 
-### Issuers Area:
+### Issuers Layer:
 - Create new certificates (via form - for single entry, and import - for multiple certificates).
 - Manage certificates (update and delete).
 - View certificates verifications history (for their issued certificates).
 
-### Admin Area:
+### Admin Layer:
 - Approve or reject new issuers, manage users (issuers and verifiers).
 - View certificates (for all issuers).
 - View certificates verification history (for all issuers).
 - View audit logs (on certificates and users profile).
 
-### Verifiers Area:
+### Verifiers Layer:
 - Not registered: Verify a certificate via a form or by scanning a QR code.
 - When registered and logged-in: Verify a certificate via a form or by scanning a QR code, and view history of previous verifications.
 
@@ -23,3 +23,7 @@ A web application for verification of academic certificates with integration of 
 - **Frontend**: Bootstrap, HTML, CSS, JavaScript
 - **Backend**: PHP
 - **Database**: MySQL
+
+## Setup
+- **Configuration file**: A sample .env file (.env-sample) has been included in the "inc" folder. Rename to ".env".
+- **Database setup**: The schema (schema.sql) for all tables are included in the "inc/sql" folder, including the required simulated data (data.sql) for each table.

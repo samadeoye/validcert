@@ -23,7 +23,7 @@ class CertificateHash
             $this->data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES
         );
         //hash the JSON
-        $certificateHash = hash('sha256', $jsonMetadata . DEF_CERTIFCATE_HASH_SALT);
+        $certificateHash = hash('sha256', $jsonMetadata . $_ENV['CERTIFCATE_HASH_SALT']);
 
         return $certificateHash;
     }

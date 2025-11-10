@@ -94,7 +94,7 @@ require_once 'inc/head.php';
             <i class="bi bi-telephone flex-shrink-0"></i>
             <div>
               <h3>Call Us</h3>
-              <p><?php echo SITE_PHONE; ?></p>
+              <p><?php echo $_ENV['SITE_PHONE']; ?></p>
             </div>
           </div><!-- End Info Item -->
         </div>

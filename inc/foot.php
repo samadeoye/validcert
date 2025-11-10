@@ -4,7 +4,7 @@
     <div class="container copyright text-center">
       <p>© <?php echo date('Y'); ?> <span>Copyright</span> <strong class="px-1 sitename"><?php echo SITE_NAME; ?></strong> <span>All Rights Reserved</span></p>
       <div class="credits">
-        Developed by <a href="https://wa.me/<?php echo SITE_PHONE; ?>"><strong><?php echo SITE_AUTHOR; ?></strong></a>
+        Developed by <a href="https://wa.me/<?php echo $_ENV['SITE_PHONE']; ?>"><strong><?php echo SITE_AUTHOR; ?></strong></a>
       </div>
     </div>
 
