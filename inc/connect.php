@@ -1,10 +1,10 @@
 <?php
 if (DEF_IS_PRODUCTION)
 {
-    $serverName = DB_SERVER_LIVE;
-    $dbName = DB_NAME_LIVE;
-    $userName = DB_USERNAME_LIVE;
-    $password = DB_PASSWORD_LIVE;
+    $serverName = $_ENV['DB_SERVER_LIVE'];
+    $dbName = $_ENV['DB_NAME_LIVE'];
+    $userName = $_ENV['DB_USERNAME_LIVE'];
+    $password = $_ENV['DB_PASSWORD_LIVE'];
 }
 else
 {
